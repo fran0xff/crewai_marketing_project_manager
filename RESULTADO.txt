@@ -1,0 +1,127 @@
+--- 📊 Usage Summary (Mock Data) ---
+Prompt tokens: 1250
+Completion tokens: 890
+Total tokens: 2140
+Estimated total cost: $0.0032
+
+--- 📝 Content Tasks ---
+[{'deliverables': ['Content strategy document',
+                   'Blog outline templates',
+                   'SEO keyword research'],
+  'dependencies': [],
+  'description': 'Create a comprehensive strategy for a 5-part blog series '
+                 'addressing key pain points for B2B SaaS decision-makers', 
+  'estimated_hours': 16,
+  'id': 'TASK-001',
+  'priority': 'High',
+  'title': 'Develop Blog Series Strategy'},
+ {'deliverables': ['eBook PDF', 'Downloadable checklist', 'Landing page copy'],
+  'dependencies': ['TASK-001'],
+  'description': 'Design and write an eBook and checklist to support gated '
+                 'campaigns',
+  'estimated_hours': 20,
+  'id': 'TASK-002',
+  'priority': 'High',
+  'title': 'Create Lead Magnet Content'},
+ {'deliverables': ['4 email templates', 'Subject line variations', 'CTA copy'],
+  'dependencies': ['TASK-001', 'TASK-002'],
+  'description': 'Write a 4-part email sequence tied to blog and lead magnet '
+                 'topics',
+  'estimated_hours': 12,
+  'id': 'TASK-003',
+  'priority': 'Medium',
+  'title': 'Email Nurture Sequence'},
+ {'deliverables': ['15 LinkedIn posts',
+                   '10 Twitter graphics',
+                   '8 Instagram stories'],
+  'dependencies': ['TASK-001'],
+  'description': 'Design promotional assets for LinkedIn, Twitter, and '    
+                 'Instagram',
+  'estimated_hours': 18,
+  'id': 'TASK-004',
+  'priority': 'Medium',
+  'title': 'Social Media Assets'},
+ {'deliverables': ['Video script', 'Storyboard', 'Final video file'],       
+  'dependencies': [],
+  'description': 'Produce a 2-minute explainer video for new feature set',  
+  'estimated_hours': 25,
+  'id': 'TASK-005',
+  'priority': 'High',
+  'title': 'Explainer Video Production'},
+ {'deliverables': ['Webinar agenda',
+                   'Speaker coordination',
+                   'Registration page'],
+  'dependencies': ['TASK-001'],
+  'description': 'Schedule and coordinate live webinar with guest speakers',
+  'estimated_hours': 15,
+  'id': 'TASK-006',
+  'priority': 'Medium',
+  'title': 'Webinar Coordination'}]
+
+--- 👥 Assignments ---
+[{'assigned_tasks': ['TASK-001', 'TASK-002'],
+  'role': 'Lead Strategist',
+  'team_member': 'Sarah Lee (Content Strategist)',
+  'total_hours': 36},
+ {'assigned_tasks': ['TASK-001', 'TASK-003'],
+  'role': 'Content Writer',
+  'team_member': 'Mark Johnson (SEO Writer)',
+  'total_hours': 28},
+ {'assigned_tasks': ['TASK-004'],
+  'role': 'Visual Designer',
+  'team_member': 'Priya Desai (Graphic Designer)',
+  'total_hours': 18},
+ {'assigned_tasks': ['TASK-003'],
+  'role': 'Email Marketing',
+  'team_member': 'Carlos Rivera (Email Marketing Specialist)',
+  'total_hours': 12},
+ {'assigned_tasks': ['TASK-004'],
+  'role': 'Social Media',
+  'team_member': 'Emma Chen (Social Media Manager)',
+  'total_hours': 18},
+ {'assigned_tasks': ['TASK-005'],
+  'role': 'Video Production',
+  'team_member': 'Liam Brown (Video Producer)',
+  'total_hours': 25}]
+
+--- 🎯 Milestones ---
+[{'date': 'Week 2',
+  'deliverables': ['TASK-001', 'TASK-002'],
+  'description': 'Blog strategy and lead magnet strategy finalized',        
+  'milestone': 'Content Strategy Complete'},
+ {'date': 'Week 4',
+  'deliverables': ['TASK-003', 'TASK-004'],
+  'description': 'Email sequence and social assets completed',
+  'milestone': 'Content Creation Phase 1'},
+ {'date': 'Week 6',
+  'deliverables': ['TASK-005', 'TASK-006'],
+  'description': 'Video production and webinar setup complete',
+  'milestone': 'Video and Webinar Ready'}]
+
+--- 📅 Content Calendar ---
+
+📅 CONTENT CALENDAR SUMMARY - Q1 2025
+
+WEEK 1-2: STRATEGY & PLANNING
+- Blog series strategy development (Sarah, Mark)
+- Lead magnet content outline (Sarah)
+- SEO keyword research (Mark)
+
+WEEK 3-4: CONTENT CREATION PHASE 1
+- Email nurture sequence writing (Carlos, Mark)
+- Social media asset design (Priya, Emma)
+- Blog post drafts (Mark)
+
+WEEK 5-6: MULTIMEDIA & EVENTS
+- Explainer video production (Liam)
+- Webinar setup and speaker coordination (Sarah)
+- Lead magnet finalization (Sarah)
+
+ONGOING ACTIVITIES:
+- Weekly social media posts (Emma)
+- Blog SEO optimization (Mark)
+- Email campaign monitoring (Carlos)
+- Brand guideline compliance (All team members)
+
+QUARTERLY THEME: "Scaling with Smart Systems"
+All content aligned with Q1 messaging strategy focused on helping B2B SaaS companies optimize their operations and scale efficiently.
